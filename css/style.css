@@ -1,0 +1,183 @@
+:root{
+    --header-text: #EDEDED;
+    --additinal-text1: #C7AA8B;
+    --header-accent: #000;
+    --hero-color: #FFF;
+    --hero-text:rgba(255, 255, 255, 0.81);
+    --additinal-text2:#4D4D4D;
+    --review-title:rgba(50, 50, 50, 0.36);
+    --review-background: #F7F7F7;
+    --footer-text:#858585;
+    --header-background: #323232;
+}
+/* ================================================================== */
+body{
+    font-family: "Roboto Condensed";
+}
+
+.header{
+    background-color: var(--header-background);
+}
+
+.header-logo{
+    color: var(--header-text);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 0.83;
+    text-transform: uppercase;
+}
+
+.navigation-link{
+    color: var(--header-text);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* ================================================================= */
+.hero{
+    background-color: tan;
+}
+
+.hero-title{
+    color: var(--hero-color);
+    text-align: center;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 0.84;
+    text-transform: uppercase;
+}
+
+.hero-text{
+    color: var(--hero-text);
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.11;
+}
+
+.hero-link{
+    color: var(--hero-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+/* ===================================================================== */
+.info{
+    background-color: tan;
+}
+
+.info-title{
+    color: var(--additinal-text2);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.info-text{
+    color: var(--additinal-text2);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+}
+/* ======================================================================= */
+.quote-title{
+    color: var(--additinal-text1);
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 1.17;
+}
+/* ================================================================== */
+.team-title{
+    color: var(--additinal-text2);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+.team-name{
+    color: var(--additinal-text2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.team-rank{
+    color: var(--additinal-text2);
+    font-family: Vollkorn;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.66;
+}
+/* =================================================================== */
+.reviews{
+    background-color: var(--review-background);
+}
+
+.reviews-title{
+    color: var(--review-title);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-transform: uppercase;
+}
+
+.reviews-text{
+    color: var(--additinal-text2);
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.11;
+}
+
+.reviews-author{
+    color: var(--additinal-text1);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.53;
+    text-transform: uppercase;
+}
+/* ==================================================================== */
+.footer{
+    background-color: var(--header-background);
+}
+
+.footer-text{
+    color: var(--footer-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+}
+
+.footer-button{
+    border: 2px solid var(--additinal-text1);
+    background: rgba(77, 77, 77, 0.20);
+    color: var(--additinal-text1);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.footer-address{
+    color: var(--footer-text);
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.53;
+}
+
+
