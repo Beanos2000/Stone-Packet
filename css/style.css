@@ -11,12 +11,24 @@
     --header-background: #323232;
 }
 /* ================================================================== */
+
+.container{
+    width: 969px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid red;
+}
+
 body{
     font-family: "Roboto Condensed";
 }
 
 .header{
     background-color: var(--header-background);
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .header-logo{
@@ -38,6 +50,8 @@ body{
 /* ================================================================= */
 .hero{
     background-color: tan;
+    padding-top: 69px;
+    padding-bottom: 121px;
 }
 
 .hero-title{
@@ -69,6 +83,8 @@ body{
 /* ===================================================================== */
 .info{
     background-color: tan;
+    padding-top: 80px;
+    padding-bottom: 83px;
 }
 
 .info-title{
@@ -88,6 +104,11 @@ body{
     line-height: 1.42;
 }
 /* ======================================================================= */
+.quote{
+    padding-top: 127px;
+    padding-bottom: 157px;
+}
+
 .quote-title{
     color: var(--additinal-text1);
     font-size: 47px;
@@ -95,6 +116,11 @@ body{
     line-height: 1.17;
 }
 /* ================================================================== */
+.team{
+    padding-top: 76px;
+    padding-bottom: 80px;
+}
+
 .team-title{
     color: var(--additinal-text2);
     font-size: 30px;
@@ -119,6 +145,8 @@ body{
 }
 /* =================================================================== */
 .reviews{
+    padding-top: 79px;
+    padding-bottom: 104px;
     background-color: var(--review-background);
 }
 
@@ -150,6 +178,8 @@ body{
 }
 /* ==================================================================== */
 .footer{
+    padding-top: 57px;
+    padding-bottom: 53px;
     background-color: var(--header-background);
 }
 
