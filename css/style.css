@@ -27,8 +27,11 @@ body{
 
 .header{
     background-color: var(--header-background);
-    padding-top: 15px;
-    padding-bottom: 20px;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
 }
 
 .header-logo{
@@ -37,6 +40,16 @@ body{
     font-weight: 400;
     line-height: 0.83;
     text-transform: uppercase;
+    margin-right: 30px;
+    display: flex;
+}
+
+.navigation-list{
+    display: flex;
+}
+
+.navigation-item{
+    padding: 20px 30px;
 }
 
 .navigation-link{
@@ -47,11 +60,27 @@ body{
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+.header-list{
+    display: flex;
+    margin-left: auto;
+
+}
+
+.header-item{
+    padding: 22px 23px;
+}
 /* ================================================================= */
 .hero{
+    text-align: center;
     background-color: tan;
     padding-top: 69px;
     padding-bottom: 121px;
+    background-image: url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero-title{
@@ -61,6 +90,7 @@ body{
     font-weight: 400;
     line-height: 0.84;
     text-transform: uppercase;
+    margin-bottom: 36px;
 }
 
 .hero-text{
@@ -70,9 +100,13 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.11;
+    margin-bottom: 49px;
 }
 
 .hero-link{
+    padding: 10px 17px;
+    border: 2px solid #FFF;
+    background: rgba(77, 77, 77, 0.20);
     color: var(--hero-color);
     text-align: center;
     font-size: 16px;
@@ -87,6 +121,22 @@ body{
     padding-bottom: 83px;
 }
 
+.info-list{
+    display: flex;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 319.984px;
+    border-top: 1px solid rgba(50, 50, 50, 0.13);
+    padding-top: 22px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 23px;
+}
+
 .info-title{
     color: var(--additinal-text2);
     text-align: center;
@@ -94,6 +144,23 @@ body{
     font-weight: 400;
     line-height: 1;
     text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.info-image{
+    width: 69px;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+.info-item:nth-child(2) .info-image{
+    width: 95px;
+    height: 95px;
+}
+
+.info-item:nth-child(3) .info-image{
+    width: 114px;
+    height: 87px;
 }
 
 .info-text{
@@ -107,6 +174,11 @@ body{
 .quote{
     padding-top: 127px;
     padding-bottom: 157px;
+    background-image: url(../images/ocean.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .quote-title{
@@ -119,6 +191,17 @@ body{
 .team{
     padding-top: 76px;
     padding-bottom: 80px;
+}
+
+.team-box{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 113px; */
+}
+
+.team-list{
+    display: flex;
+    gap: 20px;
 }
 
 .team-title{
@@ -134,6 +217,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
+    margin-top: 10px;
 }
 
 .team-rank{
@@ -142,12 +226,19 @@ body{
     font-size: 12px;
     font-weight: 400;
     line-height: 1.66;
+    margin-bottom: 12px;
+}
+
+.team-items{
+    display: flex;
+    gap: 10px;
 }
 /* =================================================================== */
 .reviews{
     padding-top: 79px;
     padding-bottom: 104px;
     background-color: var(--review-background);
+    text-align: center;
 }
 
 .reviews-title{
@@ -159,13 +250,25 @@ body{
     text-transform: uppercase;
 }
 
+.reviews-list{
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+    margin-top: 46px;
+}
+
 .reviews-text{
+    width: 361px;
     color: var(--additinal-text2);
     text-align: center;
     font-family: Vollkorn;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.11;
+}
+
+.reviews-item:last-child .reviews-text{
+    margin-bottom: 21px;
 }
 
 .reviews-author{
