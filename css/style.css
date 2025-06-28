@@ -52,10 +52,7 @@ body {
 
 .navigation-list {
     display: flex;
-}
-
-.navigation-item {
-    padding: 20px 30px;
+    justify-content: flex-start;
 }
 
 .navigation-link {
@@ -65,16 +62,29 @@ body {
     line-height: 1.33;
     letter-spacing: 2px;
     text-transform: uppercase;
+    outline: 1px solid #4D4D4D;
+    padding: 20px 30px;
+    transition: all ease-in-out 250ms;
+}
+
+.navigation-link:hover {
+    background-color: #000;
+    color: #C7AA8B;
 }
 
 .header-list {
     display: flex;
     margin-left: auto;
-
 }
 
 .header-item {
+    outline: 1px solid #4D4D4D;
     padding: 22px 23px;
+    transition: all ease-in-out 250ms;
+}
+
+.header-item:hover {
+    background-color: #000;
 }
 
 /* ================================================================= */
@@ -100,6 +110,16 @@ body {
     margin-bottom: 36px;
 }
 
+.hero-title::after {
+    content: "";
+    background-color: #FFF;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    left: 920px;
+    top: 280px;
+}
+
 .hero-text {
     color: var(--hero-text);
     text-align: center;
@@ -108,6 +128,7 @@ body {
     font-weight: 400;
     line-height: 1.11;
     margin-bottom: 49px;
+    margin-top: 18px;
 }
 
 .hero-link {
@@ -120,6 +141,12 @@ body {
     font-weight: 400;
     line-height: 1.25;
     text-transform: uppercase;
+    transition: ease-in-out all 250ms;
+}
+
+.hero-link:hover {
+    padding: 12px 19px;
+    font-size: 20px;
 }
 
 /* ===================================================================== */
@@ -197,6 +224,16 @@ body {
     line-height: 1.17;
 }
 
+.quote-title::after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #C7AA8B;
+    position: absolute;
+    left: 482px;
+    top: 1200px;
+}
+
 /* ================================================================== */
 .team {
     padding-top: 76px;
@@ -245,7 +282,7 @@ body {
 }
 
 .team-item:hover {
-    outline: 1px solid black;
+    outline: 1px solid #cecccc;
     border-radius: 6px;
 }
 
