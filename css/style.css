@@ -18,7 +18,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body{
@@ -232,6 +232,14 @@ body{
 .team-items{
     display: flex;
     gap: 10px;
+}
+
+.team-item:hover{
+    box-shadow: 3px 3px 5px 5px black;
+    .team-name{
+        text-shadow: 5px 5px 5px rgb(255, 0, 0);
+        color: yellow;
+    }
 }
 /* =================================================================== */
 .reviews{
